@@ -28,9 +28,9 @@ function Mills({
         <div className="formkit-background" style={{ opacity: 0.2 }}></div>
         <div data-style="minimal">
           <div className="formkit-header" data-element="header" style={{ color: 'rgb(77, 77, 77)', fontSize: '27px', fontWeight: 700, textAlign: 'center' }}>
-            <h1>Join the Newsletter</h1>
+            <h1>Stay updated</h1>
           </div>
-          <div className="formkit-subheader" data-element="subheader" style={{ color: 'rgb(104, 104, 104)', fontsize: '18px' }}>Subscribe to get our latest content by email.</div>
+          <div className="formkit-subheader" data-element="subheader" style={{ color: 'rgb(104, 104, 104)', fontsize: '18px' }}>Subscribe to my newsletter and get my latest content by email.</div>
           <ul className="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
           <div data-element="fields" data-stacked={stacked} className="seva-fields formkit-fields">
             {!hideName && (
@@ -54,7 +54,7 @@ function Mills({
               <span>{submitText}</span>
             </button>
           </div>
-          <div className="formkit-guarantee" data-element="guarantee" style={{ color: 'rgb(77, 77, 77)', fontSize: '13px', fontWeight: 400 }}>We won't send you spam. Unsubscribe at any time.</div>
+          <div className="formkit-guarantee" data-element="guarantee" style={{ color: 'rgb(77, 77, 77)', fontSize: '13px', fontWeight: 400 }}>I won't send you spam, I promise. Unsubscribe at any time.</div>
           {options.settings.powered_by.show ? (
             <a href={options.settings.powered_by.url} className="formkit-powered-by" data-element="powered-by" target="_blank" rel="noopener noreferrer">Powered By ConvertKit</a>
           ) : null}
