@@ -1392,6 +1392,7 @@ function Minimal(_ref) {
     htmlFor: "ck-first-name"
   }, nameLabel) : null, /*#__PURE__*/React.createElement("input", {
     type: "text",
+    required: "required",
     name: "fields[first_name]",
     placeholder: namePlaceholder,
     "aria-label": nameLabel,
@@ -1400,6 +1401,7 @@ function Minimal(_ref) {
     htmlFor: "ck-email"
   }, emailLabel) : null, /*#__PURE__*/React.createElement("input", {
     type: "email",
+    required: "required",
     name: "email_address",
     placeholder: emailPlaceholder,
     "aria-label": emailLabel,
